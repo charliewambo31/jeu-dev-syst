@@ -38,19 +38,33 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <h3>Column 1</h3>
+            <!-- <div class="dropdown"> -->
+              <h3>Rafraichissement</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p> 
+              <!-- </div> -->
+      
           </div>
           <div class="col-sm-4">
-            <h3>Column 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            
+            <p><u><h1>Gagnez en choississant votre cafe!:</h1></u></p><br>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">menu
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">apple</a></li>
+                  <li><a href="#">banana</a></li>
+                  <li><a href="#">orange</a></li>
+                  <li><a href="#">grape</a></li>
+                  <li><a href="#">pear</a></li>
+                </ul>
           </div>
+
+
+
           <div class="col-sm-4">
-            <h3>Column 3</h3>        
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <input id="inputIQ" type="number"/>
+            <button onclick="inputIQFunction()">Submit</button>
+            
           </div>
         </div>
       </div>
@@ -75,31 +89,12 @@
         </div>
       </nav> -->
         
-      <div class="container">
-        <div class="boite1">
-                        
-          <label>
-              <h1><span>Boulangerie Melo </span></h1>
-              <select class="choix1" name="choix1">
-                  <option value="">Choisir une …</option>
-                  <option value="Saint Pierre">Saint Pierre</option>
-                  <option value="Saint Jean">Saint Jean</option>
-                  <option value="Saint Jacques">Saint Jacques</option>
-                  <option value="Saint Michel">Saint Michel</option>
-                  <option value="Saint Gabriel">Saint Gabriel</option>
-              </select>
-          </label>
-          
-          <div class="clinique1" style="font-size: 50px;">
-          </div>
-      </div>
-  
-      </div>
+      
 
  <!-- Boostrap Carousel-->
 
       <div class="container">
-        <h2>Boulangerie Melo</h2>  
+        
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -148,26 +143,12 @@
         </div>
       </div>
 
-      <div class="dropdown">
-        <p><u><h2>selectionner un element:</h2></u></p><br>
-          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">menu
-          <span class="caret"></span></button>
-          <ul class="dropdown-menu">
-            <li><a href="#">apple</a></li>
-            <li><a href="#">banana</a></li>
-            <li><a href="#">orange</a></li>
-            <li><a href="#">grape</a></li>
-            <li><a href="#">pear</a></li>
-          </ul>
-        </div><br>
-
+     
       
 
 
 
-      <input id="inputIQ" type="number"/>
-      <button onclick="inputIQFunction()">Submit</button>
-      
+     
 
     <script src="script.js"></script>
     
