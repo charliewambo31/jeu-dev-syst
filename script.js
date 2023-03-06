@@ -14,9 +14,9 @@
 // }
 
 
-const selectElement1 = document.querySelector('.choix1');
+const selectElement1 = document.querySelector('.choix');
 selectElement1.addEventListener('change', (event) => {
-var result1 = document.querySelector('.clinique1');
+var result1 = document.querySelector('.boisson');
   result1.textContent = `Votre choix est : ${event.target.value}`;
 });
 
