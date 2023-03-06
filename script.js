@@ -14,11 +14,6 @@
 // }
 
 
-
-
-
-
-
 const selectElement1 = document.querySelector('.choix1');
 selectElement1.addEventListener('change', (event) => {
 var result1 = document.querySelector('.clinique1');
@@ -30,14 +25,6 @@ const myArray = ["apple", "banana", "orange", "grape", "pear"];
 const randomIndex = Math.floor(Math.random() * myArray.length);
 const randomElement = myArray[randomIndex];
 console.log(randomElement);
-
-
-// const bouton = document.getElementById('button');
-// bouton.addEventListener('click', () => {
-//   alert('Le bouton a été cliqué !');
-// });
-
-
 
 
 const bouton1 = document.getElementById('button');
@@ -53,8 +40,6 @@ bouton1.addEventListener('click', () => {
     alert('vous avez perdu');
   }
 });
-
-
 
 
 
