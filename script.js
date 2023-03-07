@@ -1,31 +1,8 @@
-// let userinput
-// switch(true) {
-//   case userinput <= 10:
-//     alert("Less than 10");
-//     break;
-
-//   case userinput > 10:
-//     alert("Greater than 10");
-//     break;
-
-//   default:
-//     alert("Please input value");
-//     break;
-// }
-
-
 const selectElement1 = document.querySelector('.choix');
 selectElement1.addEventListener('change', (event) => {
 var result1 = document.querySelector('.boisson');
   result1.textContent = `Votre choix est : ${event.target.value}`;
 });
-
-
-const myArray = ["apple", "banana", "orange", "grape", "pear"];
-const randomIndex = Math.floor(Math.random() * myArray.length);
-const randomElement = myArray[randomIndex];
-console.log(randomElement);
-
 
 const bouton1 = document.getElementById('button');
 bouton1.addEventListener('click', () => {
@@ -42,25 +19,6 @@ bouton1.addEventListener('click', () => {
 });
 
 
-
-// function inputIQFunction() {
-//     var userinput = document.getElementById("inputIQ").value;
-//     userinput = parseInt(userinput);
-//     switch (true) {
-
-//         case userinput <= 10:
-//             alert("Less than 10");
-//             break;
-
-//         case userinput > 10:
-//             alert("Greater than 10");
-//             break;
-
-//         default:
-//             alert("Please input value");
-//             break;
-//       }
-//   }
 
 
   
