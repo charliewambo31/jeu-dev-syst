@@ -10,7 +10,7 @@
 
 # Auteurs et reconnaissances
 
-Charlie wambo(etudiant) 
+## Charlie wambo(etudiant) 
 
 # Etat du projet:
-Projet en cours
+## Projet en cours
